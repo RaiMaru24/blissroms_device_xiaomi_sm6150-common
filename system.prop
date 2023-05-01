@@ -1,6 +1,10 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Camera
+log.tag.CHIUSECASE=ERROR
+persist.log.tag.CHIUSECASE=S
+
 # CNE
 persist.vendor.cne.feature=1
 
