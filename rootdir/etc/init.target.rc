@@ -123,6 +123,8 @@ on boot
     chmod 0664 /sys/devices/virtual/touch/touch_dev/double_tap
     chown system system /sys/devices/virtual/touch/touch_dev/double_tap
 
+    write /sys/block/sda/queue/wbt_lat_usec 75000
+
 on property:sys.boot_completed=1
     # Runtime fs tuning
     write /sys/block/sda/queue/read_ahead_kb 128
