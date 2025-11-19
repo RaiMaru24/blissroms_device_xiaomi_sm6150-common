@@ -179,6 +179,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
 
+# Init
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_sm6150)
+
 # ION
 $(call soong_config_set_bool,libion,legacy_impl,true)
 
