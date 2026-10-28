@@ -9,7 +9,6 @@ persist.log.tag.CHIUSECASE=S
 persist.vendor.cne.feature=1
 
 # Display
-ro.launcher.blur.appLaunch=0
 ro.sf.blurs_are_expensive=1
 
 # FUSE
