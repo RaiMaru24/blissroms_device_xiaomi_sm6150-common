@@ -114,8 +114,6 @@ on boot
     chown system system /sys/devices/virtual/touch/touch_dev/double_tap
 
     write /sys/block/sda/queue/wbt_lat_usec 75000
-    write /sys/block/sda/queue/scheduler deadline
-    write /sys/block/sde/queue/scheduler deadline
 
 service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
