@@ -27,7 +27,4 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
     vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
-    
-    <!-- Should we use background blur for the volume dialog. -->
-    <bool name="config_volumeDialogUseBackgroundBlur">true</bool>
 </resources>
